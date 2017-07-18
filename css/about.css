@@ -1,0 +1,302 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: "Helvetica Neue","Helvetica","Arial","PingFang SC","Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+}
+@media only screen and (min-width: 0px) and (max-width: 1200px) {
+	.navbar-brand {
+		float:none;
+	    display:inline-block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+	}.navbar-header {
+    	text-align: center;
+	}
+	.navbar-inverse .navbar-collapse{
+		float: left;
+	}
+	.navbar-inverse .navbar-toggle{
+		float: left;
+		margin: 15px 10px 5px;
+	}
+}
+	
+header{
+	font-size: 17px;
+}
+nav{
+	height: 60px;
+}
+header .bg_colo{
+	background: #000;
+}
+.logo{
+	width: 110px;
+	height: 30px;
+	display: block;
+	margin-top: 10px;
+	background: url(../img/isux-logo-small@2x.png) no-repeat;
+	background-size: 110px 30px;
+}
+.nav_right{
+	float: right;
+}
+.nav_left{
+	float: left;
+	margin: 15px 10px;
+}
+.nav_margin{
+	margin-right:2rem;
+}
+.nav_bor{
+	box-sizing: none;
+}
+
+.nav_mar{
+	margin-right: 5rem;
+}
+.nav_mar a{
+	margin-top: 5px;
+	}
+.nav_mar10{
+	margin-right: 10rem;
+	}
+.nav_mar10 a{
+	margin-top: 5px;
+}
+.pad60{
+	padding-top: 60px;
+}
+.navbar-fixed-top .navbar-collapse{
+	max-height: 100%;
+}
+header .navbar-default .navbar-nav>.active>a{
+	border-bottom: 3px solid deepskyblue;
+}
+header .navbar-default .navbar-nav>li>a:hover{
+	border-bottom: 3px solid deepskyblue;
+}
+content .img100{
+	width: 100%;
+}
+.nav_mincolor{
+	background:black;
+	height:100%;
+}
+.about_info {
+    min-width: auto;
+    width: auto;
+    padding-top: 150px;
+}
+
+.info_con {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 150px;
+}
+.info_con, .main_about {
+    width: 90%;
+    margin: 0 auto;
+}
+.info_con p {
+    line-height: 190%;
+    margin-bottom: 28px;
+}
+.info_line {
+    height: 1px;
+    overflow: hidden;
+    zoom: 1;
+    background: #c7c7c7;
+}
+.team_leader {
+    padding-top: 150px;
+}
+.team_leader .team_tit, .share_idea_cont {
+    font-size: 42px;
+    text-indent: 0;
+    background-image: none;
+    font-weight: normal;
+}
+.team_list {
+    overflow: hidden;
+    zoom: 1;
+    margin-bottom: 108px;
+    width: 100%;
+}
+.lface_item {
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1px;
+    margin: 1px;
+    width: 25%;
+    width: calc(25% - 2px);
+    width: -webkit-calc(25% - 2px);
+}
+.lface_item__cont {
+    position: relative;
+    display: block;
+}
+.lface_pic {
+    display: block;
+    width: 100%;
+}
+.lface_mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/about/dot_b.png) repeat;
+    background: rgba(0,0,0,0.4);
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 80%, rgba(0, 0, 0, 0.7));
+}
+.lface_pinfo {
+    position: absolute;
+    bottom: 5px;
+    left: 12px;
+    color: #fff;
+    font-family: "MyriadProLight", "微软雅黑";
+}
+.lface_col_4 .lface_name {
+    font-size: 30px;
+    line-height: 35px;
+}
+.lface_name, .lface_detail {
+    display: block;
+    white-space: nowrap;
+}
+.lface_col_4 .lface_detail {
+    font-size: 14px;
+    line-height: 16px;
+}
+.lface_name, .lface_detail {
+    display: block;
+    white-space: nowrap;
+}
+.team_tit {
+    width: 340px;
+    height: 55px;
+    margin: 0 auto;
+    font-size: 41px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 150px;
+    background-position: 0 0;
+}
+.share_idea_btn {
+    position: relative;
+    display: block;
+    text-align: center;
+    background: #15aef0;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 160px;
+    height: 204px;
+}
+.share_idea_cont {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    margin-left: -215px;
+    margin-top: -25px;
+    width: 430px;
+    height: 50px;
+    background-position: 0 -60px;
+}
+.share_idea_cont {
+    color: #fff;
+    font-weight: normal;
+}
+.team_leader .team_tit, .share_idea_cont {
+    font-size: 42px;
+    text-indent: 0;
+    background-image: none;
+    font-weight: normal;
+}
+.qrcode_box {
+    width: 210px;
+    height: 240px;
+    margin: 0 auto 150px;
+}
+.qrcode_pic {
+    display: block;
+    width: 100%;
+}
+#footer {
+    border-top: 1px solid #dddcdc;
+}
+#footer .container {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 40px 0 60px;
+    width: 100%;
+    color: #a1a1a1;
+    font-size: 14px;
+}
+
+#footer .mod-links::after {
+    clear: both;
+    display: table;
+    height: 0;
+    content: "";
+    line-height: 0;
+}
+#footer .mod-links {
+    text-align: center;
+}
+#footer .links_ued::after {
+    clear: both;
+    display: table;
+    height: 0;
+    content: "";
+    line-height: 0;
+}
+#footer .links_ued {
+    display: inline-block;
+    margin-right: 30px;
+}
+#footer .mod-links h4 {
+    float: left;
+    color: #a1a1a1;
+}
+#footer h4 {
+    vertical-align: middle;
+    font-weight: normal;
+    line-height: 22px;
+}
+#footer .mod-links ul {
+    float: left;
+    margin-bottom: 0;
+}
+#footer .mod-links li {
+    float: left;
+    margin: 0;
+    padding: 0 10px;
+    height: 20px;
+    list-style: none;
+    line-height: 22px;
+}
+#footer .mod-links a {
+    font-size: 1.16rem;
+}
+#footer a:link, #footer a:visited {
+    color: #a1a1a1;
+    text-decoration: none;
+}
+#footer .links_site {
+    display: inline-block;
+}
+.fcred {
+    padding-top: 10px;
+    text-align: center;
+    font-size: .64rem;
+    line-height: 16px;
+}
